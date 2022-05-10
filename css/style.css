@@ -6,11 +6,11 @@
     box-sizing: border-box;
 }
 
-.clearfix::after {
+.clearfix::after{
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 .container{
     width: 900px;
@@ -43,8 +43,13 @@ header{
     text-align: left;
 }
 
+
 .logoimg{
-    width:50%;
+    width:60%;
+}
+
+.logoimg2{
+    width:60%;
 }
 
 .menu{
@@ -56,7 +61,8 @@ ul{
 }
 
 
-li{
+
+.elementotoplista{
     list-style-type: none;
     display: inline-block;
     text-align: center;
@@ -65,7 +71,7 @@ li{
     
 }
 
-li a{
+.elementotoplista a{
     text-decoration: none;
     padding: 10px 5px;
     display: inline-block;
@@ -121,6 +127,10 @@ a:visited, a:link{
     font-weight: 400;
   }
   
+  .buttonbottom{    
+    background-color: rgb(87, 71, 223); 
+    color: white;
+  }
 
   .buttonsmall{
     font-size: 10px;
@@ -164,14 +174,26 @@ a:visited, a:link{
 
 .titolobottom{
     font-family:'Lato', sans-serif;
-    font-size: 35px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 700;
     color: rgb(147, 84, 255);
     text-align: left;
     margin: 0px auto;
     padding: 20px;
 
 }
+
+.titolinobottom{
+
+    font-family:'Lato', sans-serif;
+    font-weight: 900;
+    color: rgb(147, 84, 255);
+    padding: 5px;
+    font-size: 13px;  
+    text-align: left;
+}
+
+
 
 .sparklesbox{
     background-image: url("../img/stars.svg");
@@ -182,6 +204,17 @@ a:visited, a:link{
     background-position: center;
 
 }
+
+.elementolista{
+    list-style-type: none;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    color: white;
+    padding-left: 5px;
+    margin: 10px 0;
+}
+
 
 .paragraphtop{
     text-align: center;
@@ -274,9 +307,8 @@ a:visited, a:link{
 }
 
 .boxxleft{
-    background-color: rgb(255, 126, 126);
     flex-basis: 350px;
-    border: 2px dotted whitesmoke;
+    
 }
 
 .borderbottom{
@@ -284,24 +316,23 @@ a:visited, a:link{
 }
 
 .boxxright{
-    background-color: rgb(50, 193, 184);
+    
     flex-basis: 250px;
-    border: 2px dotted whitesmoke;
+    
 }
 
 .box5{
-    height: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    background-color: rgb(136, 255, 233);
-    
+    align-items: flex-start;
+    height: 100px;
     
 }
 
 
 .section4{
-    padding: 20px 20px 0px 20px;
+    padding: 5px 20px 0px 20px;
+    
 }
 .flex-end{
     align-items: flex-end;
@@ -309,12 +340,13 @@ a:visited, a:link{
 
 .logobottom{
     padding: 5px;
-    background-color: pink;
+    flex-basis: 20%;
 }
 
 .bottone{
     padding: 5px;
-    background-color: pink;
+    flex-basis: 20%;
+    text-align: right;
 }
 
 
