@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+    
+}
+
+header{
+   
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+
+.head-content{
+    
+    text-align: center;
+    padding: 20px;
+    display: flex; 
+    justify-content: center;
+    
+    
+}
+
+.logo{
+    padding: 5px;
+    width: 20%;
+    text-align: left;
+}
+
+.logoimg{
+    width:50%;
+}
+
+.menu{
+        width:60%;     
+}
+
+ul{
+    text-align: center;
+}
+
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    
+}
+
+li a{
+    text-decoration: none;
+    padding: 10px 5px;
+    display: inline-block;
+    margin: 2px;
+}
+
+a:visited, a:link{
+    color: white; 
+}
+
+.login{
+    padding: 5px;
+    width: 20%;
+    text-align: right;
+    
+}
+
+
+.section1{
+    padding: 20px;
+}
+
+.rigabottone{
+    text-align: center;
+    margin: 15px auto;
+}
+
+.button{
+    background-color: white; 
+    border: none;
+    border-radius: 20px;
+    color: black;
+    padding: 11px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 4px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .button2{
+    background-color: black; 
+    color: white;
+    font-weight: 400;
+  }
+
+  .buttonsmall{
+    font-size: 10px;
+    margin: 2px 2px;
+    padding: 6px;
+  }
+
+h1{
+    font-family:'Lato', sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.paragraphtop{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+
+}
+
+.item{
+    width: 100%;
+}
+
+
+.box1{
+    margin-top: 60px;
+    height: 300px;
+    width: 40%;  
+}
+
+
+.sezione2{
+    background-color: white;
+    margin: 40px auto;
+}
+
+.sezione3{
+    background-color: rgba(211, 211, 211, 0.861);
+    padding: 40px;
+}
+
+.section2{
+    padding: 20px;
+}
+
+.section3{
+    padding: 20px;
+}
+
+
+.box2{
+    height: 400px;
+    display:flex;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.boxleft{
+    
+    width:60%;
+    border: 2px solid black;
+}
+
+
+
+
+.boxright{
+    
+    width: 40%;
+    border: 2px solid black;
+}
+
+.section5{
+    background-color: rgba(211, 211, 211, 0.861);
+    padding: 40px;
+
+}
+
+.box3{
+    background-color: rgb(0, 109, 16);
+    border: 2px solid black;
+    height: 500px;
+}
+
+.sezione6{
+    background-color: black;
+}
+
+.box4{
+    height: 350px;
+    display:flex;
+}
+
+.boxxleft{
+    background-color: rgb(255, 126, 126);
+    flex-grow: 2;
+    border: 2px dotted whitesmoke;
+}
+
+.borderbottom{
+    border-top: 1px solid white;
+}
+
+.boxxright{
+    background-color: rgb(50, 193, 184);
+    flex-grow: 1;
+    border: 2px dotted whitesmoke;
+}
+
+.box5{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(136, 255, 233);
+    
+    
+}
+
+
+.section4{
+    padding: 20px 20px 0px 20px;
+}
+.flex-end{
+    align-items: flex-end;
+}
+
+.logobottom{
+    padding: 5px;
+    background-color: pink;
+}
+
+.bottone{
+    padding: 5px;
+    background-color: pink;
+}
+
+
