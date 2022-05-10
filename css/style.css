@@ -115,6 +115,13 @@ a:visited, a:link{
     font-weight: 400;
   }
 
+  .button3{    
+    background-color: rgb(87, 71, 223); 
+    color: white;
+    font-weight: 400;
+  }
+  
+
   .buttonsmall{
     font-size: 10px;
     margin: 2px 2px;
@@ -128,6 +135,7 @@ a:visited, a:link{
     color: white;
     text-align: center;
     margin: 0px auto;
+    padding: 20px;
 }
 
 .titolobox{
@@ -146,18 +154,48 @@ a:visited, a:link{
     color: black;
 }
 
+.titolobox4{;
+    font-family:'Lato', sans-serif;
+    margin-top:40px;
+    color: black;
+    font-size: 25px;    
+    width: 100%;
+}
+
+.titolobottom{
+    font-family:'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(147, 84, 255);
+    text-align: left;
+    margin: 0px auto;
+    padding: 20px;
+
+}
+
+.sparklesbox{
+    background-image: url("../img/stars.svg");
+    position: relative;
+    text-align: center;
+    background-size: 32%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
 .paragraphtop{
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
+    
 }
 
 .paragraph{
     color: black;
     text-align: left;
     padding: 0 20px;
-    
+    margin-top: 0;
 }
 
 
@@ -217,14 +255,12 @@ a:visited, a:link{
 }
 
 .section5{
-    background-color: rgba(211, 211, 211, 0.861);
-    padding: 40px;
+    background-color: rgba(211, 211, 211, 0.95);
+    padding: 30px;
 
 }
 
 .box3{
-    background-color: rgb(0, 109, 16);
-    border: 2px solid black;
     height: 500px;
 }
 
@@ -239,7 +275,7 @@ a:visited, a:link{
 
 .boxxleft{
     background-color: rgb(255, 126, 126);
-    flex-grow: 2;
+    flex-basis: 350px;
     border: 2px dotted whitesmoke;
 }
 
@@ -249,7 +285,7 @@ a:visited, a:link{
 
 .boxxright{
     background-color: rgb(50, 193, 184);
-    flex-grow: 1;
+    flex-basis: 250px;
     border: 2px dotted whitesmoke;
 }
 
