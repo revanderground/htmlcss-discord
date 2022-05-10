@@ -193,7 +193,9 @@ a:visited, a:link{
     text-align: left;
 }
 
-
+.flag{
+    justify-content: center;
+}
 
 .sparklesbox{
     background-image: url("../img/stars.svg");
@@ -308,6 +310,8 @@ a:visited, a:link{
 
 .boxxleft{
     flex-basis: 350px;
+    display:inline;
+    
     
 }
 
@@ -349,4 +353,12 @@ a:visited, a:link{
     text-align: right;
 }
 
+
+.flag{
+    width: 12%;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    margin-left: 20px;
+}
 
