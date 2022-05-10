@@ -362,3 +362,13 @@ a:visited, a:link{
     margin-left: 20px;
 }
 
+.logos{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    color:rgb(255, 255, 255) 
+}
+
+i{
+    padding: 0 3px;
+}
