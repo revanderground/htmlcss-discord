@@ -376,8 +376,13 @@ i{
 
 
 .waves{
+    height: 100px;
     background-image: url("../img/wave.svg");
-   
+    filter: opacity(0.15);
+    
+}
 
-   
+.wavesrotate{
+    transform: rotateX(0.7turn);
+    margin-top: -34.344px;
 }
