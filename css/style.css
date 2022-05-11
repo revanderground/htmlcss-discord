@@ -253,8 +253,9 @@ a:visited, a:link{
 }
 
 .sezione3{
-    background-color: rgba(211, 211, 211, 0.861);
-    padding: 40px;
+    background-color: rgba(211, 211, 211, 0.861);   
+    
+    
 }
 
 .section2{
@@ -371,4 +372,12 @@ a:visited, a:link{
 
 i{
     padding: 0 3px;
+}
+
+
+.waves{
+    background-image: url("../img/wave.svg");
+   
+
+   
 }
